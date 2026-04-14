@@ -1,0 +1,121 @@
+
+
+/* === AVATAR GLOW ANIMATION === */
+@keyframes avatarGlow {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+/* === NICKNAME STYLES === */
+.nickname-matrix {
+  color: #4ade80!important;
+  text-shadow: 0 0 10px #22c55e, 0 0 20px #16a34a, 0 0 40px #15803d;
+  font-family: 'Courier New', monospace!important;
+  animation: matrixPulse 2s ease infinite;
+}
+@keyframes matrixPulse {
+  0%,100% { text-shadow: 0 0 10px #22c55e, 0 0 20px #16a34a; opacity:1; }
+  50% { text-shadow: 0 0 20px #4ade80, 0 0 40px #22c55e; opacity:0.85; }
+}
+
+.nickname-galaxy {
+  background: linear-gradient(90deg, #c084fc, #818cf8, #22d3ee, #f472b6, #c084fc);
+  background-size: 200% auto;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: galaxyShift 3s linear infinite;
+  filter: drop-shadow(0 0 6px rgba(192,132,252,0.4));
+}
+@keyframes galaxyShift {
+  0% { background-position: 0% center; }
+  100% { background-position: 200% center; }
+}
+
+.nickname-ice {
+  color: #bae6fd!important;
+  text-shadow: 0 0 8px #38bdf8, 0 0 16px #0ea5e9, 0 0 24px #0284c7;
+  letter-spacing: 2px;
+}
+
+.nickname-blood {
+  color: #dc2626!important;
+  text-shadow: 0 0 8px #ef4444, 0 0 16px #b91c1c, 0 2px 4px rgba(220,38,38,0.6);
+  letter-spacing: 1px;
+  font-style: italic;
+}
+
+
+/* === AVATAR GLOW ANIMATION === */
+@keyframes avatarGlow {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+/* === ALL NICKNAME STYLES === */
+.nickname-neon {
+  color: #22d3ee !important;
+  text-shadow: 0 0 7px #22d3ee, 0 0 14px #06b6d4, 0 0 21px #0891b2;
+}
+.nickname-dark {
+  color: #e2e8f0 !important;
+  text-shadow: 0 1px 3px rgba(0,0,0,0.8), 0 0 8px rgba(255,255,255,0.05);
+}
+.nickname-gold {
+  background: linear-gradient(90deg, #fbbf24, #f59e0b, #fcd34d, #f59e0b, #fbbf24);
+  background-size: 200% auto;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: goldShimmer 3s linear infinite;
+  filter: drop-shadow(0 0 6px rgba(251,191,36,0.4));
+}
+@keyframes goldShimmer {
+  0% { background-position: 0% center; }
+  100% { background-position: 200% center; }
+}
+.nickname-fire {
+  background: linear-gradient(90deg, #ef4444, #f97316, #fbbf24, #f97316, #ef4444);
+  background-size: 200% auto;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: fireFlicker 2s ease infinite;
+  filter: drop-shadow(0 0 6px rgba(239,68,68,0.4));
+}
+@keyframes fireFlicker {
+  0%,100% { background-position: 0% center; filter: drop-shadow(0 0 6px rgba(239,68,68,0.4)); }
+  50% { background-position: 100% center; filter: drop-shadow(0 0 10px rgba(249,115,22,0.6)); }
+}
+.nickname-matrix {
+  color: #4ade80 !important;
+  text-shadow: 0 0 10px #22c55e, 0 0 20px #16a34a, 0 0 40px #15803d;
+  font-family: 'Courier New', monospace !important;
+  animation: matrixPulse 2s ease infinite;
+}
+@keyframes matrixPulse {
+  0%,100% { text-shadow: 0 0 10px #22c55e, 0 0 20px #16a34a; opacity:1; }
+  50% { text-shadow: 0 0 20px #4ade80, 0 0 40px #22c55e; opacity:0.85; }
+}
+.nickname-galaxy {
+  background: linear-gradient(90deg, #c084fc, #818cf8, #22d3ee, #f472b6, #c084fc);
+  background-size: 200% auto;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: galaxyShift 3s linear infinite;
+  filter: drop-shadow(0 0 6px rgba(192,132,252,0.4));
+}
+@keyframes galaxyShift {
+  0% { background-position: 0% center; }
+  100% { background-position: 200% center; }
+}
+.nickname-ice {
+  color: #bae6fd !important;
+  text-shadow: 0 0 8px #38bdf8, 0 0 16px #0ea5e9, 0 0 24px #0284c7;
+  letter-spacing: 2px;
+}
+.nickname-blood {
+  color: #dc2626 !important;
+  text-shadow: 0 0 8px #ef4444, 0 0 16px #b91c1c, 0 2px 4px rgba(220,38,38,0.6);
+  letter-spacing: 1px;
+  font-style: italic;
+}
